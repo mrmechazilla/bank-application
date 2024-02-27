@@ -3,7 +3,7 @@ This reposiroty highlights my online bank application with multiple functionalit
 
 ## Microservices Architecture 
 
-![alt text](file:///home/youssef/Downloads/architecture%20microservice%20bancaire.drawio.svg)
+![alt text](https://drive.google.com/file/d/1iXuTDcHZn7Zafv-fYTDG-SPYEriA15GJ/view?usp=sharing)
 
 The Architecture consists of two functional microservices: account-service and customer service, and also there are three technical microservices: Gateway-service, Discovery-service and Config-service. Each microservice is attached to its own Postgres database for data storage. THe microservices communicate via OpenFeign Framework and are secured throught the Gateway-service using Keycloak server and OAuth 2.0 protocol.
 
